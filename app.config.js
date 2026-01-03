@@ -2,9 +2,9 @@ import "dotenv/config";
 
 export default {
   expo: {
-    name: "OneCredit",
-    slug: "onecredit",
-    scheme: "onecredit",
+    name: "creditOne",
+    slug: "creditOne",
+    scheme: "creditOne",
     version: "1.0.0",
     orientation: "portrait",
     icon: "./assets/icons/icon.png",
@@ -19,11 +19,11 @@ export default {
 
     ios: {
       supportsTablet: false,
-      bundleIdentifier: "com.onecredit.app",
+      bundleIdentifier: "com.creditOne.app",
     },
 
     android: {
-      package: "com.onecredit.app",
+      package: "com.creditOne.app",
       adaptiveIcon: {
         foregroundImage: "./assets/icons/adaptive-icon.png",
         backgroundColor: "#ffffff",
